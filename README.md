@@ -23,7 +23,7 @@ This project is a web-based Personal Profile Application that developed for the 
 
 1. **Clone or Download the Repository**
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/CSC584-Individual-Assignment-1.git](https://github.com/YOUR_GITHUB_USERNAME/CSC584-Individual-Assignment-1.git)
+   git clone [https://github.com/2026117811-08/Individual-Assignment-CSC584.git](https://github.com/2026117811-08/Individual-Assignment-CSC584.git)
 2. **Open Project in Apache NetBeans**
 3. **Verify Server**
 - Right click the project folder in NetBeans and select Properties.
