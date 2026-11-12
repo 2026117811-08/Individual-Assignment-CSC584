@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Form</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <video autoplay muted loop playsinline id="myVideo">
+      <source src="car.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+      <h2>My Profile</h2>
+      <form action="ProfileServlet" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="studentId">Student ID:</label>
+          <input type="text" id="studentId" name="studentId" required>
+
+          <label for="programme">Programme:</label>
+          <input type="text" id="programme" name="programme" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="hobbies">Hobby:</label>
+          <input type="text" id="hobbies" name="hobbies" required>
+
+          <label for="bio">Short Self-Introduction:</label>
+          <textarea id="bio" name="bio" rows="4"></textarea>
+
+          <button type="submit">Submit Profile</button>
+      </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  background-color: #f4f7f6;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 { 
+  text-align: center; 
+  color: #333; 
+  margin-top: 0;
+}
+
+label { 
+  font-weight: bold; 
+  margin-top: 10px; 
+  display: block; 
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #9955BB;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover { 
+  background-color: #B666D2; 
+}
