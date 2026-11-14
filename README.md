@@ -8,7 +8,7 @@ This project is a web-based Personal Profile Application that developed for the 
 
 ## Technologies Used
 - **Frontend**: HTML5, CSS3
-- **Backend Controller**: Java Servlet (Jakarta EE / Java EE)
+- **Backend Controller**: Java Servlet ( Java EE)
 - **View Template**: JSP (JavaServer Pages)
 - **IDE**: Apache NetBeans
 - **Application Server**: GlassFish 4.1.1
