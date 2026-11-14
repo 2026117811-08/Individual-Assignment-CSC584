@@ -7,7 +7,7 @@
 This project is a web-based Personal Profile Application that developed for the CSC584 individual assignment. This application allows user to input their profile details including Name, Student ID, Programme, Email, Hobby and a Self Introduction into a HTML form. After submission, the data  is sent via HTTP Post to a Java Servlet, ProfileServlet. The servlet then processes the input and forward it to a JavaServer Pages,profile.jsp, to display the submitted information.
 
 ## Technologies Used
-- **Frontend**: HTML5, CSS3
+- **Frontend**: HTML5, CSS
 - **Backend Controller**: Java Servlet ( Java EE)
 - **View Template**: JSP (JavaServer Pages)
 - **IDE**: Apache NetBeans
